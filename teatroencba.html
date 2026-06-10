@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Teatro en Córdoba</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <a href="./teatroencba.html">Teatro en Córdoba</a>
+    <a href="#tipos">Tipos</a>
+    <a href="./recomendaciones.html">Recomendaciones</a>
+    <a href="./espacios.html">Espacios</a>
+    <a href="./autora.html">Autora</a>
+  </nav>
+
+  <div id="introducción">
+    <div class="hero-title">
+      <span class="negro">DESCUBRÍ</span>
+      <div class="linea-teatro">
+        <span class="amarillo">EL</span>
+        <span class="rojo">TEATRO</span>
+      </div>
+      <div class="linea-cordoba">
+        <span class="en">EN</span>
+        <span class="cordoba">Córdoba</span>
+      </div>
+    </div>
+    <p class="hero-subtitulo"><em>Una breve guía para recorrer la escena teatral cordobesa</em></p>
+  </div>
+
+  <div id="espacios">
+    <h2>Espacios teatrales</h2>
+   <ul>
+  <li>
+    <div class="tarjeta-contenido">
+      <!-- ícono edificio -->
+      <svg class="icono-teatro" viewBox="0 0 64 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="8" y="20" width="48" height="26" rx="1" stroke="#9f2d28" stroke-width="1.8" fill="none"/>
+        <path d="M4 22 L32 4 L60 22" stroke="#9f2d28" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+        <rect x="26" y="30" width="12" height="16" rx="1" stroke="#9f2d28" stroke-width="1.5" fill="none"/>
+        <rect x="13" y="26" width="9" height="9" rx="0.5" stroke="#d8a526" stroke-width="1.4" fill="none"/>
+        <rect x="42" y="26" width="9" height="9" rx="0.5" stroke="#d8a526" stroke-width="1.4" fill="none"/>
+        <line x1="32" y1="4" x2="32" y2="1" stroke="#9f2d28" stroke-width="1.5"/>
+        <circle cx="32" cy="1" r="1.5" fill="#9f2d28"/>
+      </svg>
+      <a href="./espacios.html#libertador" class="nombre-teatro">Teatro del Libertador General San Martín</a>
+      <a href="./espacios.html#libertador" class="btn-ver-mas">VER MÁS →</a>
+    </div>
+  </li>
+  <li>
+    <div class="tarjeta-contenido">
+      <!-- ícono máscaras  -->
+      <svg class="icono-teatro" viewBox="0 0 64 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="22" cy="22" rx="15" ry="18" stroke="#9f2d28" stroke-width="1.8" fill="none"/>
+        <path d="M14 28 q8 9 16 0" stroke="#9f2d28" stroke-width="1.5" fill="none"/>
+        <circle cx="17" cy="19" r="2" fill="#9f2d28"/>
+        <circle cx="27" cy="19" r="2" fill="#9f2d28"/>
+        <ellipse cx="44" cy="24" rx="14" ry="17" stroke="#d8a526" stroke-width="1.8" fill="none"/>
+        <path d="M36 31 q8-8 16 0" stroke="#d8a526" stroke-width="1.5" fill="none"/>
+        <circle cx="39" cy="21" r="2" fill="#d8a526"/>
+        <circle cx="49" cy="21" r="2" fill="#d8a526"/>
+      </svg>
+      <a href="./espacios.html#circulaxia" class="nombre-teatro">Espacio Circulaxia</a>
+      <a href="./espacios.html#circulaxia" class="btn-ver-mas">VER MÁS →</a>
+    </div>
+  </li>
+  <li>
+    <div class="tarjeta-contenido">
+      <!-- ícono brújula -->
+      <svg class="icono-teatro" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="32" cy="32" r="26" stroke="#9f2d28" stroke-width="1.8" fill="none"/>
+        <circle cx="32" cy="32" r="3" fill="#9f2d28"/>
+        <polygon points="32,10 36,30 32,28 28,30" fill="#9f2d28"/>
+        <polygon points="32,54 28,34 32,36 36,34" fill="#d8a526"/>
+        <line x1="10" y1="32" x2="54" y2="32" stroke="#9f2d28" stroke-width="1" stroke-dasharray="3 3"/>
+        <line x1="32" y1="10" x2="32" y2="54" stroke="#9f2d28" stroke-width="1" stroke-dasharray="3 3"/>
+      </svg>
+      <a href="./espacios.html#brujula" class="nombre-teatro">Teatro La Brújula</a>
+      <a href="./espacios.html#brujula" class="btn-ver-mas">VER MÁS →</a>
+    </div>
+  </li>
+</ul>
+  </div>
+
+  <div class="tipos-wrapper">
+    <div id="tipos">
+      <h2>Tipos de teatro</h2>
+     <div class="tipos-grid">
+
+  <article>
+    <h3>Teatro oficial</h3>
+    <p>Producciones impulsadas por instituciones estatales o culturales que buscan promover el acceso al teatro y la actividad cultural.</p>
+  </article>
+
+  <article>
+    <h3>Teatro independiente</h3>
+    <p>Propuestas autogestionadas y experimentales donde el objetivo principal suele ser la expresión artística y la cercanía con el público.</p>
+  </article>
+
+  <article>
+    <h3>Teatro comercial</h3>
+    <p>Espectáculos de gran convocatoria orientados al entretenimiento, generalmente realizados en salas grandes y con producciones de mayor escala.</p>
+  </article>
+
+  <article>
+    <h3>Teatro musical</h3>
+    <p>Un formato teatral que combina actuación, música, canto y danza en propuestas escénicas dinámicas y visuales.</p>
+  </article>
+
+</div>
+    </div>
+  </div>
+
+  <div id="recomendaciones">
+  <h2>Obras recomendadas</h2>
+
+  <blockquote class="cita-teatral">
+  "El teatro es la poesía que se levanta del libro y se hace humana."
+  <cite>— Federico García Lorca</cite>
+</blockquote>
+
+  <p>Una selección de obras elegidas como ejemplo de la diversidad y las propuestas teatrales que forman parte de la escena cordobesa.</p>
+
+  <nav>
+    <a href="./recomendaciones.html">VER MÁS →</a>
+  </nav>
+</div>
+
+<footer class="site-footer">
+  <p class="footer-nombre">Trinidad Ortiz Reverte</p>
+  <p class="footer-info">Diseño Multimedia I — Comunicación Audiovisual — 2026</p>
+</footer>
+
+</body>
+</html>
